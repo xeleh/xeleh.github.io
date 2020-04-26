@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+<title>Xeleh</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/brands.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+<!--
+<link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+-->
+</head>
+
+<body class="site">
+
+
+
+
+
+<nav class="navbar navbar-light">
+<div id="navbar-container" class="container">
+
+<a class="navbar-logo d-flex justify-content-start align-items-center" href="/">
+<img src="/images/logo64x64.png">
+<p class="navbar-logo-text" ">xeleh</p>
+</a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="position: relative; right: 0px; top: 0px;">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+</div>
+</nav>
+
+<div class="container collapse p-0" id="navbarToggleExternalContent">
+<div class="navbar-menu" markdown="1"><div class="row">
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+<div class="navbar-menu-mobile" markdown="1"><div class="row">
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+</div>
+
+
+<div class="container content">
+
+
+
+<div class="container breadcrumb d-flex flex-nowrap bg-transparent">
+<div class="breadcrumb-item flex-fill">
+
+	<a href="/"><i class="fa fa-home"></i></a>
+
+</div>
+
+
+
+<div class="breadcrumb-item">Experience</div>
+
+
+
+
+
+
+<span class="lang-link disabled">EN</span>
+<a class="lang-link" href="/es/experiencia.html">ES</a>
+
+
+</div>
+
+
+<article markdown="1">
+<div class="p-0 col-12 col-md-8 offset-md-2 col-sm-10 offset-sm-1" markdown="1" >
+
+<h1>Experience</h1>
+
+
+<hr />
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">May 2012 – Jan 2020</span></div><div class="section-col2 col-md-8">
+
+    <h3>Technical Director</h3>
+    <h4><b>Evasion Games</b> · Córdoba (Spain)</h4>
+    <p>Development and marketing of <a href="/projects/gameflow">GameFlow</a>, a visual scripting tool for Unity. Design, management, programming and quality control of the games <a href="/projects/vitrun">Vitrun</a> and <a href="/projects/vitrun-air">Vitrun Air</a>.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Unity</span>
+
+<span class="tag badge badge-info nobold"> C#</span>
+
+<span class="tag badge badge-info nobold"> UnityScript</span>
+
+<span class="tag badge badge-info nobold"> Git</span>
+
+<span class="tag badge badge-info nobold"> SourceTree</span>
+
+<span class="tag badge badge-info nobold"> Fork</span>
+
+<span class="tag badge badge-info nobold"> Leap Motion</span>
+
+<span class="tag badge badge-info nobold"> Javascript</span>
+
+<span class="tag badge badge-info nobold"> Jekyll</span>
+
+<span class="tag badge badge-info nobold"> Bootstrap</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Feb 2016 – Oct 2016</span></div><div class="section-col2 col-md-8">
+
+    <h3>External Consultant</h3>
+    <h4><b>Virtually Live</b> · Málaga (Spain)</h4>
+    <p>Development of customized Unity tools for Virtual Reality projects related to sports events. Consulting for the organization of the development and application of agile methodologies.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Unity</span>
+
+<span class="tag badge badge-info nobold"> C#</span>
+
+<span class="tag badge badge-info nobold"> Git</span>
+
+<span class="tag badge badge-info nobold"> Agile</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Sep 2010 – Apr 2012</span></div><div class="section-col2 col-md-8">
+
+    <h3>QA Manager</h3>
+    <h4><b>Klooteam</b> · Sevilla (Spain)</h4>
+    <p>Technical direction of the QA area. Automation of software construction and testing processes. Definition of work policies and procedures. Development of an internal tool for quality control management. Definition of functional and product usability requirements.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Python</span>
+
+<span class="tag badge badge-info nobold"> Bash</span>
+
+<span class="tag badge badge-info nobold"> Trac</span>
+
+<span class="tag badge badge-info nobold"> Nose</span>
+
+<span class="tag badge badge-info nobold"> Git</span>
+
+<span class="tag badge badge-info nobold"> Jenkins</span>
+
+<span class="tag badge badge-info nobold"> Selenium</span>
+
+<span class="tag badge badge-info nobold"> SSH</span>
+
+<span class="tag badge badge-info nobold"> jsTestDriver</span>
+
+<span class="tag badge badge-info nobold"> QA</span>
+
+<span class="tag badge badge-info nobold"> UX</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Nov 2008 – Aug 2010</span></div><div class="section-col2 col-md-8">
+
+    <h3>iOS Developer</h3>
+    <h4><b>Autónomo</b> · Málaga (Spain)</h4>
+    <p>Specialized consultancy in iOS application development. Management, programming, quality control, marketing and support. Custom app development. Technical documentation. Production of several own apps: <a href="/projects/bingo-touch">Bingo Touch</a>, <a href="/projects/smart-groups">Smart Groups</a>, <a href="/projects/b-days">B-Days</a> y <a href="/projects/best-apps">Best Apps</a>.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">iOS</span>
+
+<span class="tag badge badge-info nobold"> Objective-C</span>
+
+<span class="tag badge badge-info nobold"> XCode</span>
+
+<span class="tag badge badge-info nobold"> Subversion</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Nov 2006 – May 2008</span></div><div class="section-col2 col-md-8">
+
+    <h3>QA Manager</h3>
+    <h4><b>Gextech</b> · Málaga (Spain)</h4>
+    <p>Design and implementation of a QA plan for <a href="/projects/fantastic-league">Fantastic League</a>, a virtual sports event betting game. Responsible for a team of 5 people.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Java</span>
+
+<span class="tag badge badge-info nobold"> Mantis</span>
+
+<span class="tag badge badge-info nobold"> TestLink</span>
+
+<span class="tag badge badge-info nobold"> CruiseControl</span>
+
+<span class="tag badge badge-info nobold"> Subversion</span>
+
+<span class="tag badge badge-info nobold"> Ant</span>
+
+<span class="tag badge badge-info nobold"> Eclipse</span>
+
+<span class="tag badge badge-info nobold"> XML</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Feb 2005 – Sep 2006</span></div><div class="section-col2 col-md-8">
+
+    <h3>Development Manager</h3>
+    <h4><b>Gextech</b> · Málaga (Spain)</h4>
+    <p>Development of betting games for J2ME mobiles. Development of an automatic porting system. QA implementation and continuous integration. Responsible for a team of 10 people.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Java</span>
+
+<span class="tag badge badge-info nobold"> J2ME</span>
+
+<span class="tag badge badge-info nobold"> Ant</span>
+
+<span class="tag badge badge-info nobold"> Eclipse</span>
+
+<span class="tag badge badge-info nobold"> XML</span>
+
+<span class="tag badge badge-info nobold"> CruiseControl</span>
+
+<span class="tag badge badge-info nobold"> CVS</span>
+
+<span class="tag badge badge-info nobold"> Microsoft Project</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Nov 2003 – Aug 2004</span></div><div class="section-col2 col-md-8">
+
+    <h3>Analyst Programmer</h3>
+    <h4><b>Gigames</b> · Barcelona (Spain)</h4>
+    <p>Extension and design of the API of GOS, a gaming engine for type B gaming machines for which I was originally responsible. Redesign of the engine’s prize compensation module.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Java</span>
+
+<span class="tag badge badge-info nobold"> OpenGL</span>
+
+<span class="tag badge badge-info nobold"> LWJGL</span>
+
+<span class="tag badge badge-info nobold"> Eclipse</span>
+
+<span class="tag badge badge-info nobold"> Ant</span>
+
+<span class="tag badge badge-info nobold"> Linux</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Jan 2003 – Sep 2003</span></div><div class="section-col2 col-md-8">
+
+    <h3>Lead Programmer</h3>
+    <h4><b>Gextech</b> · Málaga (Spain)</h4>
+    <p>Design and implementation of GOS, a game engine for gaming machines type B and Gran Doradium, first game developed on GOS. Responsible for a team of 6 people.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Java</span>
+
+<span class="tag badge badge-info nobold"> OpenGL</span>
+
+<span class="tag badge badge-info nobold"> LWJGL</span>
+
+<span class="tag badge badge-info nobold"> Eclipse</span>
+
+<span class="tag badge badge-info nobold"> Ant</span>
+
+<span class="tag badge badge-info nobold"> Linux</span>
+
+<span class="tag badge badge-info nobold"> CVS</span>
+
+<span class="tag badge badge-info nobold"> Mantis</span>
+
+<span class="tag badge badge-info nobold"> Microsoft Project</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Jul 2000 – May 2001</span></div><div class="section-col2 col-md-8">
+
+    <h3>Programmer</h3>
+    <h4><b>DMA4</b> · Madrid (Spain)</h4>
+    <p>Programming of a shoot’em up game using Java technologies. Design and programming of custom tools for editing and binary serialization of game levels.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Java</span>
+
+<span class="tag badge badge-info nobold"> AWT</span>
+
+<span class="tag badge badge-info nobold"> Javascript</span>
+
+<span class="tag badge badge-info nobold"> HTML</span>
+
+</div>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="dates">Oct 1999 – May 2000</span></div><div class="section-col2 col-md-8">
+
+    <h3>Programmer</h3>
+    <h4><b>Prosur</b> · Córdoba (Spain)</h4>
+    <p>Programming of business applications for agricultural cooperatives.
+Automated conversion of MS/DOS programs to Windows.</p>
+
+    <div class="tags">
+
+<span class="tag badge badge-info nobold">Visual Basic</span>
+
+<span class="tag badge badge-info nobold"> ADO</span>
+
+<span class="tag badge badge-info nobold"> Crystal Reports</span>
+
+<span class="tag badge badge-info nobold"> SQL</span>
+
+</div>
+
+  </div>
+</div>
+
+
+<hr>
+</div>
+</article>
+
+
+</div>
+
+<footer>
+<div class="container first">
+<div class="footer-menu" markdown="1"><div class="row">
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/experience">Experience</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+      <tr>
+        <td><a href="/legal">Legal</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="/store">Store</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+      <tr>
+        <td><a href="/support">Support</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+<div class="footer-menu-mobile" markdown="1"><div class="row">
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/experience">Experience</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+      <tr>
+        <td><a href="/legal">Legal</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+      <tr>
+        <td><a href="/store">Store</a></td>
+      </tr>
+      <tr>
+        <td><a href="/support">Support</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+</div>
+
+<div class="container second pt-3 pb-2">
+
+<div class="row align-items-center">
+<div id="copyright">
+
+
+
+© 2020 <a href="/">Xeleh</a>
+</div>
+<div class="social-icons col">
+<a class="pr-2" href="mailto:pr@xeleh.com"><i class="fa fa-envelope-square"></i></a>
+<a class="pr-2" href="https://es.linkedin.com/in/xeleh"><i class="fab fa-linkedin"></i></a>
+<a class="pr-2" href="https://github.com/xeleh"><i class="fab fa-github"></i></a>
+<a class="pr-2" href="https://twitter.com/xeleh"><i class="fab fa-twitter"></i></a>
+<a class="pr-2" href="https://patreon.com/xeleh"><i class="fab fa-patreon"></i></a>
+</div>
+</div>
+</footer>
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>

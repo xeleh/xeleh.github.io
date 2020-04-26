@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+<title>Xeleh</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/brands.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+<!--
+<link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+-->
+</head>
+
+<body class="site">
+
+
+
+
+
+<nav class="navbar navbar-light">
+<div id="navbar-container" class="container">
+
+<a class="navbar-logo d-flex justify-content-start align-items-center" href="/">
+<img src="/images/logo64x64.png">
+<p class="navbar-logo-text" ">xeleh</p>
+</a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="position: relative; right: 0px; top: 0px;">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+</div>
+</nav>
+
+<div class="container collapse p-0" id="navbarToggleExternalContent">
+<div class="navbar-menu" markdown="1"><div class="row">
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+<div class="navbar-menu-mobile" markdown="1"><div class="row">
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+</div>
+
+
+<div class="container content">
+
+
+
+<div class="container breadcrumb d-flex flex-nowrap bg-transparent">
+<div class="breadcrumb-item flex-fill">
+
+	<a href="/"><i class="fa fa-home"></i></a>
+
+</div>
+
+
+
+<div class="breadcrumb-item">Projects</div>
+
+
+
+
+
+
+<span class="lang-link disabled">EN</span>
+<a class="lang-link" href="/es/proyectos/">ES</a>
+
+
+</div>
+
+
+<article markdown="1">
+<div class="p-0 col-12 col-md-8 offset-md-2 col-sm-10 offset-sm-1" markdown="1" >
+
+<h1>Projects</h1>
+
+
+<hr />
+<h2 id="unity-tools">Unity Tools</h2>
+<hr />
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/enhancer">Editor Enhancer</a></span><div><p class="subtext mb-sm-2 mb-md-0">2020 -</p></div></div><div class="section-col2 col-md-8">
+
+    <p>A collection of utilities to improve the Unity editor: dark theme, sidebar, etc.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/gameflow">GameFlow</a></span><div><p class="subtext mb-sm-2 mb-md-0">2013 - 2019</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Visual scripting extension designed to simplify video game programming.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/instancer">Instancer</a></span><div><p class="subtext mb-sm-2 mb-md-0">2016</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Tool for generating and placing instances along guides extracted from AutoCAD files.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/soccer-data-editor">Soccer Data Editor</a></span><div><p class="subtext mb-sm-2 mb-md-0">2016</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Visual editor for 3D data sets obtained by scanning football matches in real time.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/course-data-editor">Course Data Editor</a></span><div><p class="subtext mb-sm-2 mb-md-0">2016</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Visual editor for Formula E racing GPS data sets.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/xt-utilities">XT Utilities</a></span><div><p class="subtext mb-sm-2 mb-md-0">2016</p></div></div><div class="section-col2 col-md-8">
+
+    <p>A collection of small utilities for the Unity editor.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/xt-reorder">XT Reorder</a></span><div><p class="subtext mb-sm-2 mb-md-0">2015</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Extension that enables the possibility of reordering components in the Inspector window using drag and drop.</p>
+
+  </div>
+</div>
+
+<hr />
+<h2 id="games">Games</h2>
+<hr />
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/vitrun-air">Vitrun Air</a></span><div><p class="subtext mb-sm-2 mb-md-0">2013</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Adaptation of Vitrun to play with the Leap Motion controller. Unity.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/vitrun">Vitrun</a></span><div><p class="subtext mb-sm-2 mb-md-0">2012</p></div></div><div class="section-col2 col-md-8">
+
+    <p>The classic ball-roller game with a personal touch. Unity.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/j2me-gaming">J2ME Gaming</a></span><div><p class="subtext mb-sm-2 mb-md-0">2005 - 2007</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Series of casino games and bets for mobile devices. J2ME.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/es/proyectos/fantastic-league">Fantastic League</a></span><div><p class="subtext mb-sm-2 mb-md-0">2005-</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Virtual sport events betting platform. C++.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/gran-doradium">Gran Doradium</a></span><div><p class="subtext mb-sm-2 mb-md-0">2003 - 2004</p></div></div><div class="section-col2 col-md-8">
+
+    <p>The first game for a new generation of type B gaming machines. Java y OpenGL.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/quadryx">Quadryx</a></span><div><p class="subtext mb-sm-2 mb-md-0">2002</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Computer version of a medieval board game. Director.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/v3ga">V3ga</a></span><div><p class="subtext mb-sm-2 mb-md-0">2000 - 2001</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Shoot’em up game (R-Type alike) to play in the browser. Java.</p>
+
+  </div>
+</div>
+
+<hr />
+<h2 id="apps">Apps</h2>
+<hr />
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/b-days">B-Days</a></span><div><p class="subtext mb-sm-2 mb-md-0">2009</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Simple app to keep track of your friends’ and contacts’ birthdays. Published in the App Store.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/smart-groups">Smart Groups</a></span><div><p class="subtext mb-sm-2 mb-md-0">2009 - 2010</p></div></div><div class="section-col2 col-md-8">
+
+    <p>App for advanced contact group management. Published in the App Store.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/best-apps">Best Apps</a></span><div><p class="subtext mb-sm-2 mb-md-0">2009</p></div></div><div class="section-col2 col-md-8">
+
+    <p>App that was intended to serve as a comparator of the best apps available for each category. Not published.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/bingo-touch">Bingo Touch</a></span><div><p class="subtext mb-sm-2 mb-md-0">2009</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Bingo game to play at home with built-in singing of the balls. Published in the App Store.</p>
+
+  </div>
+</div>
+
+<hr />
+<h2 id="retro-development">Retro Development</h2>
+<hr />
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/amigacode">AmigaCode</a></span><div><p class="subtext mb-sm-2 mb-md-0">2017 -</p></div></div><div class="section-col2 col-md-8">
+
+    <p>VS Code extension for Amiga/M68k assembly cross-development.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/amishell">AmiShell</a></span><div><p class="subtext mb-sm-2 mb-md-0">2018 -</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Utility that enables agile communication with an Amiga emulator through a shell in the same host machine.</p>
+
+  </div>
+</div>
+
+<hr />
+<h2 id="systems--engines">Systems &amp; Engines</h2>
+<hr />
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/custom-trac">Custom Trac</a></span><div><p class="subtext mb-sm-2 mb-md-0">2010 - 2012</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Trac extension to allow management of requirements and QA activities</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/porting-j2me">Sistema de porting J2ME</a></span><div><p class="subtext mb-sm-2 mb-md-0">2005 - 2007</p></div></div><div class="section-col2 col-md-8">
+
+    <p>System to generate automatic J2ME ports for a wide range of devices through code pre-processing.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/gos">GOS</a></span><div><p class="subtext mb-sm-2 mb-md-0">2003 - 2004</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Operating system for touchscreen slot machines. Based on Linux and Java.</p>
+
+  </div>
+</div>
+
+<hr />
+<h2 id="demoscene">Demoscene</h2>
+<hr />
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/demoescena">demoescena.org</a></span><div><p class="subtext mb-sm-2 mb-md-0">2018 -</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Website that aims to be a historical archive of the Spanish demo scene.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/trashcan">Trashcan</a></span><div><p class="subtext mb-sm-2 mb-md-0">1995 - 1998</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Disk magazine for Amiga computer users specially focused on the demoscene. M68k assembly.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/introxele">IntroXele</a></span><div><p class="subtext mb-sm-2 mb-md-0">1995</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Intro for Amiga. Winner of the 64k Amiga Intro competition at Posadas Party 1995. M68k assembly.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/odrusba-bbstro">Odrusba BBStro</a></span><div><p class="subtext mb-sm-2 mb-md-0">1995</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Small intro to introduce the BBS of the Odrusba group. M68k assembly.</p>
+
+  </div>
+</div>
+
+<div class="section d-flex flex-wrap p-0"><div class="section-col1 col-md-3">
+<span class="project-name"><a href="/projects/cafe-ole">Café Olé</a></span><div><p class="subtext mb-sm-2 mb-md-0">1994</p></div></div><div class="section-col2 col-md-8">
+
+    <p>Menu for an Amiga productions pack. M68k assembly.</p>
+
+  </div>
+</div>
+
+
+<hr>
+</div>
+</article>
+
+
+</div>
+
+<footer>
+<div class="container first">
+<div class="footer-menu" markdown="1"><div class="row">
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/experience">Experience</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+      <tr>
+        <td><a href="/legal">Legal</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="/store">Store</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+      <tr>
+        <td><a href="/support">Support</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+<div class="footer-menu-mobile" markdown="1"><div class="row">
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/experience">Experience</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+      <tr>
+        <td><a href="/legal">Legal</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+      <tr>
+        <td><a href="/store">Store</a></td>
+      </tr>
+      <tr>
+        <td><a href="/support">Support</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+</div>
+
+<div class="container second pt-3 pb-2">
+
+<div class="row align-items-center">
+<div id="copyright">
+
+
+
+© 2020 <a href="/">Xeleh</a>
+</div>
+<div class="social-icons col">
+<a class="pr-2" href="mailto:pr@xeleh.com"><i class="fa fa-envelope-square"></i></a>
+<a class="pr-2" href="https://es.linkedin.com/in/xeleh"><i class="fab fa-linkedin"></i></a>
+<a class="pr-2" href="https://github.com/xeleh"><i class="fab fa-github"></i></a>
+<a class="pr-2" href="https://twitter.com/xeleh"><i class="fab fa-twitter"></i></a>
+<a class="pr-2" href="https://patreon.com/xeleh"><i class="fab fa-patreon"></i></a>
+</div>
+</div>
+</footer>
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>

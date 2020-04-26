@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+<title>Xeleh</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/brands.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+<!--
+<link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+-->
+</head>
+
+<body class="site">
+
+
+
+
+
+<nav class="navbar navbar-light">
+<div id="navbar-container" class="container">
+
+<a class="navbar-logo d-flex justify-content-start align-items-center" href="/">
+<img src="/images/logo64x64.png">
+<p class="navbar-logo-text" ">xeleh</p>
+</a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="position: relative; right: 0px; top: 0px;">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+</div>
+</nav>
+
+<div class="container collapse p-0" id="navbarToggleExternalContent">
+<div class="navbar-menu" markdown="1"><div class="row">
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+<div class="navbar-menu-mobile" markdown="1"><div class="row">
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+</div>
+
+
+<div class="container content">
+
+
+
+<div class="container breadcrumb d-flex flex-nowrap bg-transparent">
+<div class="breadcrumb-item flex-fill">
+
+	<a href="/"><i class="fa fa-home"></i></a>
+
+</div>
+
+
+
+<div class="breadcrumb-item">About Xeleh</div>
+
+
+
+
+
+
+<span class="lang-link disabled">EN</span>
+<a class="lang-link" href="/es/acerca.html">ES</a>
+
+
+</div>
+
+
+<article markdown="1">
+<div class="p-0 col-12 col-md-8 offset-md-2 col-sm-10 offset-sm-1" markdown="1" >
+
+<h1>About Xeleh</h1>
+
+
+<p>My name is Jose Moreno, also known as “Xeleh” and, for once and just to make it easy for whoever is in charge of creating my Wikipedia entry one day (just kidding) I’ll move on to talk about me in the third person.</p>
+
+<hr />
+<h2 id="nickname">Nickname</h2>
+<p>Let’s start with the nickname. Xeleh adopted it in the mid-90s because in that Oldskool demoscene in which he was very involved having a handle or nick was kind of a tradition. He chose “Xele” because since he was a child he was known as “Josele” which in closed Andalusian would be something like “O’sele”… That seemed like a good wink to that 16-year-old boy.</p>
+
+<p>The final “h” would be added a few years later because the four-letter .com domain had already been registered. Although strange, that solution turned out not to be so bad since with that final “h”, “Xeleh” is pronounced more or less the same in both English and Spanish. Or at least that’s what the “say” command says.</p>
+
+<hr />
+<h2 id="skills">Skills</h2>
+<p>Xeleh has a very specific set of skills, although no, they do not have much to do with those of the Black Widow. Xeleh’s skills are about software development, especially tools and videogames, although he has also struggled enough with web development to <del>hate</del> understand it.</p>
+
+<p>However, it is not this technical knowledge that makes Xeleh a different developer, but his other three great virtues: infinite patience, an absurdly effective associative memory and an exceptional tenacity to find solutions to those “impossibles” that inevitably appear in any project.</p>
+
+<p>As if that were not enough, Xeleh’s ability to find faults in computer systems and tools in a matter of hours is also “legendary”. Something that Xeleh himself describes as “his cursed gift”, but which in reality is nothing more than the fruit of experience after years of observation of a particular development philosophy that can be summarized in one of his reflections:</p>
+
+<blockquote>
+  <p>“Why do I do quality control all the time? Because I hate surprises… if my software is going to fail, I want to be the first to know”.</p>
+</blockquote>
+
+<p>Last but not least, Xeleh has leadership skills and the ability to build and manage successful development teams. An ability that he says should be attributed above all to respect for the work of others and empathy, i.e. the ability to listen and really understand the team’s problems as a logical first step to finding solutions.</p>
+
+<hr />
+<h2 id="education">Education</h2>
+<p>Xeleh’s training was mostly self-taught and began more by chance than anything else. In the early 1980s, Pepe Moreno, a brilliant electronics engineer and Xeleh’s father, began to take up computers first with a ZX81 and then with a Spectrum, which would give Xeleh early and privileged access to both home computers and the magazines and books her father bought.</p>
+
+<p>And so, through many hours, many trials and many mistakes, Xeleh learned <a href="https://es.wikipedia.org/wiki/BASIC">Basic</a> on his own to the point where he was able to make his first programs of his own. Programs that ranged from simple versions of commercial games to rare visual experiments that only made sense in that child’s imagination. Without knowing it, Xeleh was discovering one of his great passions: graphics programming.</p>
+
+<p><img src="/images/xeleh-euskal8.jpg" alt="" /></p>
+
+<p>The rest of the story is quite long because it involves several stages of learning, so you have it narrated in detail in a separate article entitled <a href="/articles/how-i-learned">“How I Learned”</a>, but you could sum it up by saying that, thanks to an innate passion for learning, Xeleh has been able to keep quite up to date with new technologies, as shown by the fact that today he is a Unity specialist.</p>
+
+<hr />
+<h2 id="experience">Experience</h2>
+<p>Xeleh began her professional career in 1999, so today we can say that he has more than <strong>20 years of experience</strong> in the software development industry. His beginnings, however, were not easy because due to his lack of formal training he did not have an easy time getting a first chance.</p>
+
+<p>He never gave up and finally got it. And year after year, from those first positions as a programmer and through effort, successes and errors, Xeleh discovered that in addition to technical skills he had the ability to lead programming teams and the ability to act as an intermediary between management and technical positions:</p>
+
+<blockquote>
+  <p>“I understood that the most valuable thing I could do for a company was not to program, but to translate the “tie” language of management positions into a language that programmers could understand. And vice versa, of course.”</p>
+</blockquote>
+
+<p>So, thanks to people who were able to see this in him, Xeleh ended up being promoted to technical management positions where - with different luck, it has to be said - he was involved in building, training and leading teams on projects of all kinds, but which were almost always related in one way or another to video game development.</p>
+
+<p>For more information, on the <a href="/experience">Experience</a> page you can find a detailed list of the positions, dates, companies, functions, projects and technologies that make up Xeleh’s entire professional experience.</p>
+
+<hr />
+<h2 id="projects">Projects</h2>
+<p>All the projects in which Xeleh has participated and which are worthy of mention can be found on the <a href="/projects">Projects</a> page.</p>
+
+<p>Currently there are <strong>28 projects (and counting)</strong> among which you can find both Xeleh’s first amateur productions for the <a href="/projects#demoscene">demoscene</a> and all the professional projects developed throughout her career including also some new projects currently in development.</p>
+
+<p>It’s easy to say that <a href="/projects/gameflow">GameFlow</a> has been the longest and most ambitious project in which Xeleh has participated, but actually the most remarkable in terms of importance would be <a href="/projects/vitrun">Vitrun</a> because for Xeleh it meant making a dream come true that he had wanted to fulfill for many years.</p>
+
+<!-- video -->
+<div class="video-wrapper">
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6BsIIGTJ5Po?showinfo=0" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<hr />
+<h2 id="talks">Talks</h2>
+<p>Although Xeleh is not much of a public speaker, in early 2014 he was encouraged to give some talks on video game development with Unity as part of the promotion of their new tool <a href="/projects/gameflow">GameFlow</a>.</p>
+
+<p>His first talk was entitled “Modern Video Game Development” and was an introduction for people interested in making their own games where he touched on points like the definition of a video game, the importance of teamwork and choosing the right tools, and above all the need to be practical. All this with his usual sense of humor.</p>
+
+<p>In the summer of that same year, Xeleh would give his second and so far his last talk at <a href="https://www.gamepolis.org/">Gamepolis</a>, one of the most important events on video games in Spain. Xeleh officially presented the beta version of GameFlow making a live demonstration of its power, as you can see (from minute 16:30) in the following video:</p>
+
+<!-- video -->
+<div class="video-wrapper">
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tbOZom6MfNU?showinfo=0" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<hr />
+<h2 id="awards">Awards</h2>
+<p>Outside the sporting arena -where a young Xeleh stood out as an excellent indoor soccer player winning many championships- Xeleh’s record to date is limited to a single award worthy of mention.</p>
+
+<p>It was a <strong>first prize</strong> obtained in the intros 64k competition at the <a href="/articles/posadas-amiga-party-1995">Posadas Amiga Party 1995</a> with his production <a href="/projects/introxele">“IntroXele”</a>, an electronic poetry about frustration, overcoming and dreams synchronized with a piano piece by <a href="http://amigamod.blogspot.com/">Fermix</a>.</p>
+
+<p>In this video you can see the 18 year old Xeleh picking up the prize and just below you will find a badly recorded version -it appears without color- but still enjoyable of the above mentioned intro:</p>
+
+<!-- video -->
+<div class="video-wrapper">
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QtgHdR4ladg?start=354&amp;end=477?showinfo=0" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<hr>
+</div>
+</article>
+
+
+</div>
+
+<footer>
+<div class="container first">
+<div class="footer-menu" markdown="1"><div class="row">
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/experience">Experience</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+      <tr>
+        <td><a href="/legal">Legal</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="/store">Store</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-12 col-sm-3">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+      <tr>
+        <td><a href="/support">Support</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+<div class="footer-menu-mobile" markdown="1"><div class="row">
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/about">About</a></td>
+      </tr>
+      <tr>
+        <td><a href="/experience">Experience</a></td>
+      </tr>
+      <tr>
+        <td><a href="/projects">Projects</a></td>
+      </tr>
+      <tr>
+        <td><a href="/resources">Resources</a></td>
+      </tr>
+      <tr>
+        <td><a href="mailto:pr@xeleh.com">Contact</a></td>
+      </tr>
+      <tr>
+        <td><a href="/legal">Legal</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="col-6">
+
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="/news">News</a></td>
+      </tr>
+      <tr>
+        <td><a href="/services">Services</a></td>
+      </tr>
+      <tr>
+        <td><a href="/articles">Articles</a></td>
+      </tr>
+      <tr>
+        <td><a href="/downloads">Downloads</a></td>
+      </tr>
+      <tr>
+        <td><a href="/store">Store</a></td>
+      </tr>
+      <tr>
+        <td><a href="/support">Support</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div></div>
+</div>
+
+<div class="container second pt-3 pb-2">
+
+<div class="row align-items-center">
+<div id="copyright">
+
+
+
+© 2020 <a href="/">Xeleh</a>
+</div>
+<div class="social-icons col">
+<a class="pr-2" href="mailto:pr@xeleh.com"><i class="fa fa-envelope-square"></i></a>
+<a class="pr-2" href="https://es.linkedin.com/in/xeleh"><i class="fab fa-linkedin"></i></a>
+<a class="pr-2" href="https://github.com/xeleh"><i class="fab fa-github"></i></a>
+<a class="pr-2" href="https://twitter.com/xeleh"><i class="fab fa-twitter"></i></a>
+<a class="pr-2" href="https://patreon.com/xeleh"><i class="fab fa-patreon"></i></a>
+</div>
+</div>
+</footer>
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>
