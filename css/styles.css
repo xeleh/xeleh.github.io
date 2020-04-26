@@ -593,6 +593,9 @@ article img {
 .patreon-badge i {
   padding-right: 10px; }
 
+img.full {
+  border: none; }
+
 @media (max-width: 768px) {
   .section-col1 {
     text-align: left;
