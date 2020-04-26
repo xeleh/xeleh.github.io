@@ -593,8 +593,10 @@ article img {
 .patreon-badge i {
   padding-right: 10px; }
 
-img.full {
-  border: none; }
+img.travolta {
+  border: none;
+  width: 360px;
+  height: 480px; }
 
 @media (max-width: 768px) {
   .section-col1 {
