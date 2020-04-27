@@ -2,7 +2,7 @@
 body {
   color: #222222 !important;
   font-family: roboto;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 300 !important; }
 
 .site {
@@ -19,7 +19,7 @@ body {
   padding: 0px; }
 
 .content {
-  background: #f6f6f6;
+  background: #f4f4f4;
   flex: 1;
   padding-bottom: 60px; }
 
@@ -146,7 +146,7 @@ nav {
   padding: 0px !important; }
 
 #navbar-container {
-  background: #fafafa;
+  background: #f8f8f8;
   padding: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -169,7 +169,7 @@ nav a {
   color: #222222 !important; }
 
 .navbar-menu {
-  background: #fafafa;
+  background: #f8f8f8;
   padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
@@ -177,7 +177,7 @@ nav a {
   border-bottom: 1px dotted #e6e6e6; }
 
 .navbar-menu-mobile {
-  background: #fafafa;
+  background: #f8f8f8;
   display: none;
   border-bottom: 1px dotted #e6e6e6; }
 
@@ -211,7 +211,7 @@ nav a {
     padding-top: 20px;
     padding-bottom: 20px; } }
 .breadcrumb {
-  background: #fafafa !important;
+  background: #f8f8f8 !important;
   padding-top: 14px;
   padding-left: 45px;
   padding-right: 42px;
@@ -420,11 +420,11 @@ h2.card-title {
 
   .profile h1 {
     padding-top: 14px;
-    font-size: 22px;
+    font-size: 25px;
     padding-bottom: 14px; }
 
   .profile h2 {
-    font-size: 20px;
+    font-size: 23px;
     line-height: 32px;
     padding-bottom: 25px; }
 
@@ -636,7 +636,7 @@ img.travolta {
   img.full {
     width: 100%; } }
 footer .first {
-  background: #e6e6e669;
+  background: #eaeaea;
   font-size: 90%;
   padding-top: 35px;
   padding-bottom: 35px; }
@@ -649,7 +649,7 @@ footer .first {
   margin-right: 0px !important; }
 
 footer .second {
-  background: #e6e6e6;
+  background: #e4e4e4;
   padding-top: 15px !important;
   padding-bottom: 12px !important;
   padding-left: 15px;
