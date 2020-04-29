@@ -2,8 +2,9 @@
 body {
   color: #222222 !important;
   font-family: roboto;
-  font-size: 19px;
-  font-weight: 300 !important; }
+  font-size: 18px;
+  font-weight: 300 !important;
+  zoom: 110%; }
 
 .site {
   background-color: #f0f0f0 !important;
@@ -697,6 +698,9 @@ article .social-icons {
     padding-bottom: 15px !important;
     padding-left: 0px;
     padding-right: 0px; }
+
+  #copyright {
+    display: none; }
 
   .social-icons {
     font-size: 25px; } }
