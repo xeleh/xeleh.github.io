@@ -60,12 +60,6 @@ a.btn:hover {
 .nobold {
   font-weight: normal; }
 
-.video-wrapper {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  border: 8px solid white;
-  background: #e4e4e4; }
-
 .flat {
   margin: 0px;
   padding: 20px; }
@@ -374,7 +368,7 @@ h2.card-title {
 
 .project img {
   width: 100%;
-  border: 2px solid black;
+  border: 4px solid white;
   border-radius: 0px; }
 
 .project img:hover {
@@ -575,6 +569,12 @@ article img {
   width: 100%;
   border: 8px solid white; }
 
+.video-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 8px solid white;
+  background: #e4e4e4; }
+
 .patreon-row {
   text-align: center;
   margin-top: 27px;
@@ -625,6 +625,12 @@ img.travolta {
 
   article h2 {
     font-size: 23px; }
+
+  article img {
+    border: 4px solid white; }
+
+  .video-wrapper {
+    border: 4px solid white; }
 
   .section {
     margin-top: 10px;
