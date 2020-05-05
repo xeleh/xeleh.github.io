@@ -600,6 +600,14 @@ img.travolta {
   width: 360px;
   height: 480px; }
 
+.download {
+  padding-bottom: 2px;
+  margin-left: 6px;
+  margin-bottom: 0px; }
+
+h2 + table tbody tr td:last-child {
+  text-align: right; }
+
 @media (max-width: 768px) {
   .section-col1 {
     text-align: left;
@@ -639,7 +647,13 @@ img.travolta {
 
   .section .tags {
     border-bottom: 1px dotted #c9c9c9;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  h2 + table tbody tr td:first-child {
+    width: 50%; }
+
+  .download {
+    margin-bottom: 6px; } }
 @media (max-width: 576px) {
   img.full {
     width: 100%; } }
